@@ -4,16 +4,15 @@ using UnityEngine.InputSystem;
 public class CarMovementController : MonoBehaviour
 {
     [Header("Input Actions")]
-    public InputActionReference moveAction;   
-
-    public InputActionReference turnAction;   
+    public InputActionReference moveAction;
+    public InputActionReference turnAction;
 
     [Header("Car Settings")]
     public float maxSpeed = 6f;
     public float acceleration = 6f;
 
     [Tooltip("Lower = smoother turning")]
-    public float turnSpeed = 35f;   
+    public float turnSpeed = 35f;
 
     [Header("Seat / XR")]
     public Transform seatPoint;
@@ -26,13 +25,17 @@ public class CarMovementController : MonoBehaviour
     public Vector3 worldUpAxis = Vector3.up;
 
     [Header("Exit Settings")]
-    public Transform exitPoint;     
-
+    public Transform exitPoint;
     public KeyCode exitKey = KeyCode.E;
 
     private Rigidbody rb;
     private bool canDrive = false;
     private float currentSpeed = 0f;
+
+    public bool IsDriving => canDrive;
+    public float CurrentSpeed => Mathf.Abs(currentSpeed);
+    public float MaxSpeed => Mathf.Max(0.0001f, maxSpeed);
+    public Rigidbody CarRigidbody => rb;
 
     void Awake()
     {
@@ -120,4 +123,3 @@ public class CarMovementController : MonoBehaviour
         }
     }
 }
-
