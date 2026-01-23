@@ -1,91 +1,91 @@
-\# VR Vintage Car Showcase (XR Prototype)
+# VR Vintage Car Showcase (XR Prototype)
 
 <img width="1209" height="445" alt="image" src="https://github.com/user-attachments/assets/05008f75-1f9b-4950-9cb1-31bd584e621c" />
 
 
-An immersive \*\*VR/XR prototype\*\* showcasing vintage automobiles within an interactive racing-style environment. The project explores \*\*spatial interaction, locomotion, object placement, and XR input handling\*\* using Unity’s XR stack, with a focus on realism, scale, and user orientation.
+An immersive **VR/XR prototype** showcasing vintage automobiles within an interactive racing-style environment. The project explores **spatial interaction, locomotion, object placement, and XR input handling** using Unity’s XR stack, with a focus on realism, scale, and user orientation.
 
-\---
+---
 
-\## Project Overview
+## Project Overview
 
-This project presents a \*\*first-person XR experience\*\* where users can:
+This project presents a **first-person XR experience** where users can:
 
-\- Navigate a curated environment
+- Navigate a curated environment
 
-\- Interact using hand/controller input
+- Interact using hand/controller input
 
-\- View and approach vintage vehicles placed within a structured track setting
+- View and approach vintage vehicles placed within a structured track setting
 
-\- Experience spatial cues, depth, and scale in a VR-ready scene
+- Experience spatial cues, depth, and scale in a VR-ready scene
 
-The prototype is designed as a \*\*foundation for a multi-floor or multi-exhibit VR experience\*\*, such as a virtual museum, portfolio space, or interactive storytelling environment.
+The prototype is designed as a **foundation for a multi-floor or multi-exhibit VR experience**, such as a virtual museum, portfolio space, or interactive storytelling environment.
 
-\---
+---
 
-\## Key Features
+## Key Features
 
-\- \*\*XR Device Simulator Support\*\*
+- **XR Device Simulator Support**
 
 Allows full testing without a physical headset using keyboard and mouse input.
 
-\- \*\*Hand-Based Interaction\*\*
+- **Hand-Based Interaction**
 
 Virtual hands rendered in first-person for realistic interaction and orientation.
 
-\- \*\*Guided Navigation Cues\*\*
+- **Guided Navigation Cues**
 
 Visual direction indicators (ground paths and markers) to guide user movement.
 
-\- \*\*Vintage Vehicle Assets\*\*
+- **Vintage Vehicle Assets**
 
 Imported and positioned car models, optimized for real-time rendering.
 
-\- \*\*Outdoor Track Environment\*\*
+- **Outdoor Track Environment**
 
 Open environment with banners, signage, and depth cues for immersion.
 
-\---
+---
 
-\## Controls (XR Device Simulator)
+## Controls (XR Device Simulator)
 
 | Action | Input |
 
 |------|------|
 
-| Move | \`W A S D\` |
+| Move | `W A S D` |
 
 | Look | Mouse |
 
-| Toggle XR Input | \`Tab\` |
+| Toggle XR Input | `Tab` |
 
-| Switch Controllers | \`U\` |
+| Switch Controllers | `U` |
 
-| Reset Position | \`R\` |
+| Reset Position | `R` |
 
-| Hands / Controller Toggle | \`T\` |
+| Hands / Controller Toggle | `T` |
 
-\> These controls are visible in the \*\*XR Device Simulator overlay\*\* during Play Mode.
+> These controls are visible in the **XR Device Simulator overlay** during Play Mode.
 
-\---
+---
 
-\## Technical Stack
+## Technical Stack
 
-\- \*\*Engine:\*\* Unity (XR-enabled)
+- **Engine:** Unity (XR-enabled)
 
-\- \*\*XR Framework:\*\* Unity XR Interaction Toolkit
+- **XR Framework:** Unity XR Interaction Toolkit
 
-\- \*\*Simulation:\*\* XR Device Simulator
+- **Simulation:** XR Device Simulator
 
-\- \*\*Rendering:\*\* Real-time 3D (URP / Built-in, depending on project setup)
+- **Rendering:** Real-time 3D (URP / Built-in, depending on project setup)
 
-\- \*\*Assets:\*\* GLB/Prefab-based vehicle models
+- **Assets:** GLB/Prefab-based vehicle models
 
-\- \*\*Input:\*\* XR Input System (Keyboard + Mouse fallback)
+- **Input:** XR Input System (Keyboard + Mouse fallback)
 
-\---
+---
 
-\## Project Structure
+## Project Structure
 
 Assets/
 
@@ -95,7 +95,7 @@ Assets/
 
 │ ├── IntroCar.glb
 
-│ ├── vintage\_race\_car.prefab
+│ ├── vintage_race_car.prefab
 
 │ └── SpawnCars/
 
@@ -109,62 +109,62 @@ Assets/
 
 └── VRSYS/
 
-\---
+---
 
-\## Current Status
+## Current Status
 
-\- Environment layout complete
+- Environment layout complete
 
-\- XR input and hand rendering functional
+- XR input and hand rendering functional
 
-\- Vehicle placement and orientation validated
+- Vehicle placement and orientation validated
 
-\- Navigation cues implemented
+- Navigation cues implemented
 
-\---
+---
 
-\## Known Limitations
+## Known Limitations
 
-\- Some GLB assets may require re-export without compression (e.g., Draco)
+- Some GLB assets may require re-export without compression (e.g., Draco)
 
-\- No physics-based interaction with vehicles yet
+- No physics-based interaction with vehicles yet
 
-\- Single-scene prototype (multi-scene flow planned)
+- Single-scene prototype (multi-scene flow planned)
 
-\---
+---
 
-\## Planned Enhancements
+## Planned Enhancements
 
-\- Multi-floor or elevator-based navigation
+- Multi-floor or elevator-based navigation
 
-\- Vehicle interaction (inspect, rotate, metadata display)
+- Vehicle interaction (inspect, rotate, metadata display)
 
-\- Audio narration and spatial sound
+- Audio narration and spatial sound
 
-\- Performance optimization for standalone VR headsets
+- Performance optimization for standalone VR headsets
 
-\- Networked multi-user walkthrough (future scope)
+- Networked multi-user walkthrough (future scope)
 
-\---
+---
 
-\## Use Cases
+## Use Cases
 
-\- Virtual museum or exhibition
+- Virtual museum or exhibition
 
-\- Interactive portfolio experience
+- Interactive portfolio experience
 
-\- VR storytelling or guided tours
+- VR storytelling or guided tours
 
-\- XR research and prototyping
+- XR research and prototyping
 
-\---
+---
 
 Focus: XR systems, conversational AI, immersive interaction design
 
-\---
+---
 
-\## License
+## License
 
-This project is for \*\*educational and prototyping purposes\*\*.
+This project is for **educational and prototyping purposes**.
 
 Asset licenses remain with their respective creators.
