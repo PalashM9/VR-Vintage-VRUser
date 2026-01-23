@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VRPro30Dec.sln"
+    "dotnet.defaultSolution": "VR-Vintage-VRUser.sln"
 }
