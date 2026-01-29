@@ -251,4 +251,3 @@ public class XRGrabFullDebug : MonoBehaviour
         return o.ToString();
     }
 }
-

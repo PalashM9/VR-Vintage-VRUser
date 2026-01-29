@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 2211836173
+  GlobalObjectIdHash: 3276471468
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -1234,11 +1234,6 @@ MonoBehaviour:
   _gogoVisual: {fileID: 218654326}
   _k: 0.167
   _distanceThreshold: 0.4
---- !u!4 &1017727642 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 762744076093216628, guid: 2d62bfcf1f8c08947bfd7308f074722c, type: 3}
-  m_PrefabInstance: {fileID: 194378045}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1083560475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1427,6 @@ GameObject:
   - component: {fileID: 1177730693}
   - component: {fileID: 1177730697}
   - component: {fileID: 1177730692}
-  - component: {fileID: 1177730698}
   m_Layer: 0
   m_Name: GrabObject
   m_TagString: Untagged
@@ -1647,25 +1641,10 @@ MonoBehaviour:
   rightSelectAction: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   leftSelectAction: {fileID: 0}
   keyboardTestKey: 21
+  rotationSpeed: 100
+  rotationAxis: {x: 0, y: 1, z: 0}
   logEveryFrameWhileHovered: 0
   logEveryFrameActionValues: 0
---- !u!114 &1177730698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177730691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8caa7b0a2fe65e4198d60ecef66edcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::XRBimanualRotate
-  leftHandTransform: {fileID: 1017727642}
-  visualTransform: {fileID: 1887083111}
-  rotationSensitivity: 300
-  rotationAxis: {x: 0, y: 1, z: 0}
-  deadZone: 0.002
 --- !u!1 &1360828640
 GameObject:
   m_ObjectHideFlags: 0
